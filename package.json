@@ -5,31 +5,33 @@
   "main": "package.json",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "sanity dev",
     "start": "sanity start",
-    "build": "sanity build",
-    "deploy": "sanity deploy",
-    "deploy-graphql": "sanity graphql deploy"
+    "build": "sanity build"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
-    "@sanity/vision": "^3.14.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
-    "sanity": "^3.14.5",
-    "sanity-plugin-seo-pane": "^2.0.1",
-    "styled-components": "^5.3.9"
-  },
-  "devDependencies": {
-    "@sanity/eslint-config-studio": "^3.0.0",
-    "@types/react": "^18.0.25",
-    "@types/styled-components": "^5.1.26",
+    "@babel/core": "^7.12.1",
+    "@sanity/base": "^2.36.1",
+    "@sanity/core": "^2.36.1",
+    "@sanity/cross-dataset-duplicator": "0.4.0",
+    "@sanity/default-layout": "^2.36.1",
+    "@sanity/default-login": "^2.36.1",
+    "@sanity/desk-tool": "^2.36.1",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/production-preview": "^2.35.3",
+    "@sanity/scheduled-publishing": "^0.1.14",
+    "@sanity/vision": "^2.35.2",
     "eslint": "^8.6.0",
-    "prettier": "^2.8.8",
-    "typescript": "^4.9.5"
+    "prop-types": "^15.8",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "rxjs": "6.5.3",
+    "sanity-plugin-iframe-pane": "^1.1.5",
+    "sanity-plugin-media": "^1.5.1",
+    "sanity-plugin-seo-tools": "^2.2.1",
+    "styled-components": "^5.3.6"
   },
   "prettier": {
     "semi": false,
